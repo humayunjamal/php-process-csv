@@ -1,0 +1,14 @@
+{
+    "name": "root/jamal",
+    "require": {
+        "aws/aws-sdk-php": "^3.31",
+        "slim/slim": "^3.0",
+        "slim/php-view": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "jamal",
+            "email": "jamal@propertyfinder.ae"
+        }
+    ]
+}

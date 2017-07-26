@@ -1,0 +1,9 @@
+---
+- name: Setup server common configs
+  hosts: "{{ target }}"
+  sudo: true
+  vars_files:
+    - "group_vars/parameters.yml"
+    - "group_vars/secrets.yml"
+  roles:
+    - {role: 'app_configs', tags: 'app_configs'}

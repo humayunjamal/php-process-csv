@@ -1,0 +1,8 @@
+---
+
+db_host: "whateverhost"
+db_user: "user"
+db_name: "database"
+region: "region_u_want"
+s3_bucket: "s3_bucket_you_created"
+

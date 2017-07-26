@@ -1,0 +1,6 @@
+---
+
+- name: Generate main file with configs
+  template: src=index.php.j2 dest={{ playbook_dir }}/../index.php
+  
+
